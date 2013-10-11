@@ -1,0 +1,31 @@
+1500	30	// RH px
+1500	30	// RH py
+1500	30	// RH pz
+0	0	//20	0.8	// RH att
+1500	30	// LH px
+1500	30	// LH py
+1500	30	// LH pz
+0	0	//20	0.8	// LH att
+0	0	// 
+800	60	// Xpel, in kinematics
+400	40	// Xwst, in kinematics
+800	60	// Xpelz, in kinematics
+1600	80	// Xcom, in kinematics
+1600	80	// Xfoot, in kinematics
+1600	80	// Xhand, in kinematics
+100	20	// redundant task, in kinematics
+120	2	// shoulder pitch (force mode)
+100	2	// shoulder roll (force mode)
+100	2	// shoulder yaw (force mode)
+120	2	// elbow (force mode)
+100	2	// wrist yaw (force mode)
+100	2	// wrist pitch (force mode)
+0.005	0.08	// gain override and transition count (force mode, arm) 
+250	5	// ankle pitch (force mode)
+250	5	// ankle roll (force mode)
+0.005	0.08	// gain override and transition count (force mode, leg)
+
+
+//---------------------------------//
+Kp, Kd
+

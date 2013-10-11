@@ -1,0 +1,21 @@
+1500	20	// RH px
+1500	20	// RH py
+1500	20	// RH pz
+20	0.8	// RH att
+1500	20	// LH px
+1500	20	// LH py
+1500	20	// LH pz
+20	0.8	// LH att
+200	0.8	// redundant task, in force control mode
+800	60	// Xpel, in kinematics
+400	40	// Xwst, in kinematics
+400	40	// Xpelz, in kinematics
+900	60	// Xcom, in kinematics
+900	60	// Xfoot, in kinematics
+900	60	// Xhand, in kinematics
+100	20	// redundant task, in kinematics0
+0	0	//
+
+//---------------------------------//
+Kp, Kd
+

@@ -1,0 +1,13 @@
+3	60
+3	-30
+3	45
+3	-60
+3	60
+3	-45
+3	60
+3	-60
+3	45
+3	0
+
+steering sequence
+time(sec), steer angle(deg)
