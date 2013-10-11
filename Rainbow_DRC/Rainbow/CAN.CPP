@@ -338,6 +338,8 @@ void ConfigMB(unsigned int id)
 // send CAN message
 int CanSendMsg(unsigned char channel, unsigned int id, unsigned char *data, unsigned char dlc, unsigned char rtr)
 {
+  if(0==pSharedMemory->HUBO_FLAG_SEND_CAN)
+  { 
     unsigned char v, i, tempData[8];
 
 	for(i=0 ; i<8 ; i++) tempData[i] = data[i];
@@ -371,6 +373,11 @@ int CanSendMsg(unsigned char channel, unsigned int id, unsigned char *data, unsi
 		if((v & 0x08) == 0x08)				// when Transmission Complete Status (TCS) bit is set
 			return(ERR_OK);	        // return (=successful)
     }
+  }
+  else 
+  {
+    return(ERR_SEND)
+  }
 }
 /******************************************************************************/
 

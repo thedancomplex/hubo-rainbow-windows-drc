@@ -301,11 +301,14 @@ void InitParameters(void)
 	unsigned char i, j;
 	FILE* zmpinit_file;
 
-
+	
 	// SharedMemory initialize
 	pSharedMemory->CommandFlag = NO_ACT;
 	pSharedMemory->MotorControlMode = CTRLMODE_NONE;
 	pSharedMemory->LandingFz = 100.0f;
+
+	// Send CAN
+	pSharedMemory->HUBO_FLAG_SEND_CAN = 0;
 
 	// global variables initialize	
 	ReadSensorFlag = 0x00;
